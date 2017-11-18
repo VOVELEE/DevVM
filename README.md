@@ -26,3 +26,4 @@ Commands:
 Walktroughts:
 1. GIT
     https://guides.github.com/activities/hello-world/
+    https://github.com/Microsoft/vscode-tips-and-tricks
