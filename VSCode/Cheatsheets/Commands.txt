@@ -1,7 +1,14 @@
-Take all
+#region GIT
+# Take all
 git pull
 
 
-Commit
+# Commit
 git commit
 git push
+#endregion
+
+#region VSCode
+Azure: Sign In
+
+#endregion

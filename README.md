@@ -14,7 +14,9 @@ Notes for setting up DEV VM
 * [PowerShell](https://marketplace.visualstudio.com/items?itemName=ms-vscode.PowerShell)
 * [Azure Resource Manager](https://marketplace.visualstudio.com/items?itemName=msazurermtools.azurerm-vscode-tools)
 * [Git History (git log)](https://marketplace.visualstudio.com/items?itemName=donjayamanne.githistory)
+* [Azure Account](https://marketplace.visualstudio.com/items?itemName=ms-vscode.azure-account) *
 3. [Azure PowerShell](https://docs.microsoft.com/en-us/powershell/azure/install-azurerm-ps?view=azurermps-5.0.0)
+4. [NodeJS](https://nodejs.org/en/) *
 > **Command:**
 ```powershell
 Install-Module AzureRM -AllowClobber
