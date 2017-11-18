@@ -1,0 +1,7 @@
+Take all
+git pull
+
+
+Commit
+git commit
+git push
