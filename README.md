@@ -15,3 +15,10 @@ Software
     Repo: Install-Module AzureRM -AllowClobber
 4. Azure Storage Explorer
     Repo: https://azure.microsoft.com/en-us/features/storage-explorer/
+
+
+Commands:
+1. GIT
+    git clone
+    git config --global user.email "EMAIL"
+    git config --global user.name "NAME"
