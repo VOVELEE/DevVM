@@ -1,0 +1,8 @@
+{
+    //"csharp.suppressDotnetRestoreNotification": true,
+    "editor.rulers": [ 120 ],
+    "editor.renderWhitespace": "all",
+    "editor.renderControlCharacters": true,
+    "files.trimTrailingWhitespace": true,
+    "git.path": "C:\\Program Files\\Git\\bin\\git.exe"
+}
