@@ -3,6 +3,10 @@ Notes for setting up DEV VM
 
 > TBD
 
+## Features
+
+## Requirements
+
 ## Software
 1. [Git for Windows](https://git-scm.com/download/win)
 2. [Visual Studio Code](https://code.visualstudio.com/download)
