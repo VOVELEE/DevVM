@@ -39,8 +39,6 @@ Configuration DevelopmentVM{
              }
         }
 
-
-
     }
 
 DevelopmentVM -OutputPath 'Test'
