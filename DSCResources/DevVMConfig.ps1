@@ -1,5 +1,5 @@
-Configuration DevelopmentVM{
-
+Configuration DevelopmentVM
+{
         Import-DscResource -ModuleName xPSDesiredStateConfiguration
         Import-DscResource –ModuleName PSDesiredStateConfiguration
 
