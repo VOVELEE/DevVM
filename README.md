@@ -22,6 +22,7 @@ Notes for setting up DEV VM
 Install-Module AzureRM -AllowClobber
 ```
 4. [Azure Storage Explorer](https://azure.microsoft.com/en-us/features/storage-explorer/)
+5. [AzCopy](http://aka.ms/downloadazcopy)
 
 
 ## Setup Commands
