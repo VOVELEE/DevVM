@@ -23,7 +23,7 @@ Install-Module AzureRM -AllowClobber
 ```
 4. [Azure Storage Explorer](https://azure.microsoft.com/en-us/features/storage-explorer/)
 5. [AzCopy](http://aka.ms/downloadazcopy)
-
+6. [Azure Storage Emulator](https://go.microsoft.com/fwlink/?linkid=717179&clcid=0x409)
 
 ## Setup Commands
 ### GIT
@@ -39,3 +39,8 @@ git clone
 * [ReadMe Markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
 ### VSCode
 * [VSCode Tips and Tricks](https://github.com/Microsoft/vscode-tips-and-tricks)
+
+## Important links
+[AzureSpeed](http://www.azurespeed.com/)
+[ARM Vizualizer](http://armviz.io/designer)
+[Azure Resources](https://resources.azure.com/)
