@@ -1,11 +1,11 @@
-Configuration DevelopmentVM
+Configuration DevVM
 {
     Import-DscResource -ModuleName xPSDesiredStateConfiguration
     Import-DscResource -ModuleName xComputerManagement
     Import-DscResource –ModuleName PSDesiredStateConfiguration
 
     $VSCodePackageLocalPath = "c:\temp\vscodeSetup.exe"
-    $GoogleChromePackageLocalPath = "c:\temp\ChromeStandaloneSetup.msi"
+    $GoogleChromePackageLocalPath = "c:\temp\ChromeStandaloneSetup.exe"
 
     Node localhost {
         #Configurations
@@ -18,7 +18,7 @@ Configuration DevelopmentVM
         Script DisableServerManager {
             GetScript = {
                 Return @{
-                    Result = [string]$(Get-ScheduledTask -TaskName ServerManager | Select TaskName, State)
+                    Result = [string]$(Get-ScheduledTask -TaskName ServerManager | Select-Object TaskName, State)
                 }
             }
 
@@ -50,7 +50,7 @@ Configuration DevelopmentVM
         }
 
         xRemoteFile GoogleChromePackage {
-            Uri = "https://dl.google.com/tag/s/appguid={8A69D345-D564-463C-AFF1-A69D9E530F96}&iid={00000000-0000-0000-0000-000000000000}&lang=en&browser=3&usagestats=0&appname=Google%2520Chrome&needsadmin=prefers/edgedl/chrome/install/GoogleChromeStandaloneEnterprise.msi"
+            Uri = "https://dl.google.com/tag/s/appguid%3D%7B8A69D345-D564-463C-AFF1-A69D9E530F96%7D%26iid%3D%7B62848266-EECC-3C9B-C987-B78369D4EBD6%7D%26lang%3Den%26browser%3D4%26usagestats%3D0%26appname%3DGoogle%2520Chrome%26needsadmin%3Dtrue%26ap%3Dx64-stable-statsdef_1%26installdataindex%3Ddefaultbrowser/chrome/install/ChromeStandaloneSetup64.exe"
             DestinationPath = $GoogleChromePackageLocalPath
         }
 

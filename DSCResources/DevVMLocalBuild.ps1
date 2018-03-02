@@ -1,8 +1,9 @@
 #Modules
-Install-Module -Name xPSDesiredStateConfiguration
-Import-Module  xPSDesiredStateConfiguration
+Install-Module -Name xPSDesiredStateConfiguration -Force
+Install-Module -Name xComputerManagement -Force
+Import-Module  xPSDesiredStateConfiguration, xComputerManagement
 
 #ConfigBuild
-DevelopmentVM -OutputPath 'Test'
+DevVm -OutputPath 'Test'
 
 Start-DscConfiguration -ComputerName localhost -Path 'Test' -Wait -Verbose -Force
